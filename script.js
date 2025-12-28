@@ -1,8 +1,8 @@
 // ===== CONFIGURAÇÕES =====
 const CONFIG = {
-    whatsapp: 'https://wa.me/5511999999999?text=Olá%20Chefes%20do%20Asfalto!%20Gostaria%20de%20fazer%20um%20pedido.',
+    whatsapp: 'https://wa.me/5573998313527?text=Olá%20Heros%20do%20!%20Gostaria%20de%20fazer%20um%20pedido.',
     appUrl: 'https://app.chefesdoasfalto.com',
-    phone: '+55 (11) 99999-9999'
+    phone: '+55 (73) 99831-3527'
 };
 
 // ===== INICIALIZAÇÃO =====
@@ -64,8 +64,8 @@ function redirectToWhatsApp() {
     
     if (isMobile) {
         // Em mobile, tenta abrir o app primeiro
-        window.location.href = 'whatsapp://send?phone=5511999999999&text=' + 
-            encodeURIComponent('Olá Chefes do Asfalto! Gostaria de fazer um pedido.');
+        window.location.href = 'whatsapp://send?phone=5573998313527&text=' + 
+            encodeURIComponent('Olá Street Heros! Gostaria de fazer um pedido.');
         
         // Fallback para web se o app não abrir
         setTimeout(() => {
@@ -175,3 +175,4 @@ window.ChefsApp = {
     copyToClipboard,
     getDevice
 };
+
